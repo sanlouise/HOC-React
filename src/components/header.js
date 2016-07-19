@@ -35,4 +35,4 @@ function mapStateToProps(state) {
 	return { authenticated: state.authenticated };
 }
 
-connect default connect(mapStateToProps, actions)(Header);
+export default connect(mapStateToProps, actions)(Header);
